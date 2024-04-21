@@ -18,7 +18,7 @@ section {
     align-items: center;
 }
 
-section:before {
+section::before {
     content: '';
     position: absolute;
     bottom: 0;
@@ -28,7 +28,7 @@ section:before {
     z-index: 1000;
 }
 
-section:after {
+section::after {
     content: '';
     position: absolute;
     top: 0;
